@@ -3,13 +3,14 @@ Pod::Spec.new do |s|
   s.version       = "5.0.0"
   s.summary       = "Swift framework that enables gzip/gunzip Data using zlib."
 
-  s.homepage      = "https://github.com/1024jp/GzipSwift"
+  s.homepage      = "https://github.com/bloombox/GzipSwift"
   s.license       = { :type => "MIT",
                       :file => "LICENSE" }
   s.author        = { "1024jp" => "1024jp@wolfrosch.com" }
   s.social_media_url = "https://twitter.com/1024jp"
+  s.swift_version = "5.0"
 
-  s.source        = { :git => "https://github.com/1024jp/GzipSwift.git",
+  s.source        = { :git => "https://github.com/bloombox/GzipSwift.git",
                       :tag => s.version }
   s.source_files  = 'Sources/Gzip/*.swift'
 
